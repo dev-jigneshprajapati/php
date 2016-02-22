@@ -1,6 +1,6 @@
 <?php
 echo "this is my first time create a git repository";
-echo "test2";
+echo "test21";
 
 if($_GET)
 {
