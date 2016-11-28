@@ -24,6 +24,7 @@ class Welcome extends CI_Controller {
         parent::__construct();
         $this->load->helper('url');                    /***** LOADING HELPER TO AVOID PHP ERROR ****/
         $this->load->model('Welcome_model','welcome'); /* LOADING MODEL * Welcome_model as welcome */
+	test_login();  // check user loggin or not
     }
 
 
